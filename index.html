@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNPJ DO TETE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CNPJ DO TETE</h1>
+        <form id="cnpjForm">
+            <label for="cnpjInput">Digite o CNPJ sem pontos ou traços:</label>
+            <input type="text" id="cnpjInput" required>
+            <button type="submit">Consultar</button>
+        </form>
+        <div id="resultContainer" class="hidden">
+            <h2>Resultado da Consulta</h2>
+            <ul id="resultList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
